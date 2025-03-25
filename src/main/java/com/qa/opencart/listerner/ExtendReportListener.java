@@ -90,8 +90,6 @@ public class ExtendReportListener implements ITestListener {
 	   System.out.println(result.getMethod().getMethodName()+"Passed . . !");
 	   test.get().pass("Test Passed ");
 	   test.get().pass(result.getThrowable(),MediaEntityBuilder.createScreenCaptureFromPath(PlayWrightFactory.takeScreenshot()).build());
-	   
    }
-   
-
+  
 }
